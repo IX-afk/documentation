@@ -166,6 +166,12 @@ handler := func(w http.ResponseWriter, r *http.Request) {
 
 You can use the [tracing library][4] in your Orchestrion-built application. This is useful for instrumenting frameworks not yet supported by Orchestrion. However, be aware that this may result in duplicated trace spans in the future as Orchestrion support expands. Review the [release notes][11] when updating your `orchestrion` dependency to stay informed about new features and adjust your manual instrumentation as necessary.
 
+#### Use the continuous profiler
+
+Your Orchestrion-built application includes continuous profiler instrumentation.
+To enable it, set the environment variable `DD_PROFILING_ENABLED=true` at run time.
+TODO: more? Links?
+
 ### Supported frameworks
 
 | Library                             | Minimum orchestrion version   |

@@ -82,6 +82,10 @@ To begin profiling applications:
 
 **Note**: By default, only the CPU and Heap profiles are enabled. Use [profiler.WithProfileTypes][11] to enable additional [profile types][12].
 
+If you have automatically instrumented your application with Orchestrion (TODO: link?),
+the continuous profiler code will already be added to your application.
+Enable the profiler at run time by setting the environment variable `DD_PROFILING_ENABLED=true`.
+
 ## Configuration
 
 You can set profiler parameters in code with these functions:
