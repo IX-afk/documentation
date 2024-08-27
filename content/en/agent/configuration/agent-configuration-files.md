@@ -20,7 +20,7 @@ The location of the Agent configuration file differs depending on the operating 
 | AIX                                  | `/etc/datadog-agent/datadog.yaml`    |
 | Linux                                | `/etc/datadog-agent/datadog.yaml`    |
 | macOS                                | `~/.datadog-agent/datadog.yaml`      |
-| Windows                              | `%ProgramData%\Datadog\datadog.yaml` |
+| Windows                              | `active_directory.d/conf.yaml` |
 
 See the [sample `config_template.yaml` file][1] for all available configuration options.
 
